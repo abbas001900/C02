@@ -1,8 +1,15 @@
 #include <stdio.h>
 
 int main(void) {
-    int nombre;
-    scanf("%d", &nombre);
-    printf("%d est un nombre %s.\n", nombre, (nombre % 2 == 0) ? "pair" : "impair");
+    int n;
+
+    scanf("%d", &n);
+
+    if (nombre % 2 == 0) {
+        printf("%d est un nombre pair.", n);
+    } else {
+        printf("%d est un nombre impair.", n);
+    }
+
     return 0;
 }
