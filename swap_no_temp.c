@@ -4,7 +4,7 @@ int main(void) {
     int a, b;
 
     // Lecture des deux nombres (sans message pour coller à l'exemple)
-    scanf("%d %d", &a, &b);
+    scanf("%d%d", &a, &b);
 
     // Échange purement arithmétique (méthode addition/soustraction)
     a = a + b;
