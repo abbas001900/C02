@@ -5,7 +5,9 @@ int main(void) {
 
     scanf("%d", &n);
 
-    if (n % 2 == 0) {
+    int cond = n % 2;
+
+    if (cond == 0) {
         printf("%d est un nombre pair.\n", n);
     } else {
         printf("%d est un nombre impair.\n", n);
