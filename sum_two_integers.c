@@ -9,7 +9,7 @@ int main() {
 
     int somme = nbre1 + nbre2;
 
-    printf("La somme est : %d", &somme);
+    printf("La somme est : %d", somme);
 
     return 0;
 }
