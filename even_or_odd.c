@@ -3,7 +3,7 @@
 int main(void) {
     int n ;
 
-    scanf("%d", &n);
+    scanf("%d\n", &n);
 
     if (n % 2 == 0) {
         printf("%d est un nombre pair.", n);
