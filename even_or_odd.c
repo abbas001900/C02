@@ -1,15 +1,16 @@
 #include <stdio.h>
 
-int main(void) {
-    int n;
-
-    scanf("%d", &n);
-
-    if (nombre % 2 == 0) {
+void testerParite(int n) {
+    if (n % 2 == 0) {
         printf("%d est un nombre pair.\n", n);
     } else {
         printf("%d est un nombre impair.\n", n);
     }
+}
 
+int main(void) {
+    int nombre;
+    scanf("%d", &nombre);
+    testerParite(nombre);
     return 0;
 }
