@@ -12,7 +12,7 @@ int main(void) {
     a = a - b; // Maintenant a = b_original
 
     // Affichage strictement identique à l'exemple
-    printf("a = %d b = %d\n", a, b);
+    printf("Après échange: a = %d, b = %d", a, b);
 
     return 0;
 }
