@@ -4,7 +4,7 @@ int main(void) {
     int a, b;
 
     // Lecture des deux nombres
-    scanf("%d %d", &a, &b);
+    scanf("%d%d",&a,&b);
 
 
     // Échange sans utiliser de variable temporaire
@@ -13,7 +13,7 @@ int main(void) {
     a = a - b;  // a devient l'ancienne valeur de b
 
     // Affichage après échange
-    printf("Après échange: a = %d, b = %d\n", a, b);
+    printf("Après échange: a = %d, b = %d", a,b);
 
     return 0;
 }
