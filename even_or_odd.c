@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(void) {
-    int n ;
+    int n;
 
-    scanf("%d\n", &n);
+    scanf("%d", &n);
 
     if (n % 2 == 0) {
         printf("%d est un nombre pair.", n);
