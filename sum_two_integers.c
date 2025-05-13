@@ -1,6 +1,6 @@
 #include <stdio.h>  // inclusion de la bibliothèque standard
 
-int main() {
+int main(void) {
     int nbre1 ;
     int nbre2 ;
 
