@@ -3,19 +3,15 @@
 int main(void) {
     int a, b;
 
-    // Lecture des deux nombres avec vérification
-    printf("Entrez deux nombres : ");
-    if (scanf("%d %d", &a, &b) != 2) {
-        printf("Erreur : saisie invalide.\n");
-        return 1;
-    }
+    // Lecture des deux nombres (sans message pour coller à l'exemple)
+    scanf("%d %d", &a, &b);
 
-    // Échange sans variable temporaire (méthode XOR pour éviter les overflows)
-    a ^= b;
-    b ^= a;
-    a ^= b;
+    // Échange purement arithmétique (méthode addition/soustraction)
+    a = a + b;
+    b = a - b; // Maintenant b = a_original
+    a = a - b; // Maintenant a = b_original
 
-    // Affichage conforme à l'exemple
+    // Affichage strictement identique à l'exemple
     printf("Après échange: a = %d, b = %d\n", a, b);
 
     return 0;
