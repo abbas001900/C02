@@ -4,11 +4,12 @@ int main(void) {
     int nbre;
 
     scanf("%d", &nbre);
+    int compo = nbre % 2;
 
-    if (nbre % 2 == 0) {
-        printf("%d est un nombre pair.\n", nbre);
-    } else {
+    if ( compo != 0) {
         printf("%d est un nombre impair.\n", nbre);
+    } else {
+        printf("%d est un nombre pair.\n", nbre);
     }
 
     return 0;
