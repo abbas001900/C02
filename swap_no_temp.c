@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-    int a;
-    int b;
+    int a, b;
 
     // Lecture des deux nombres (sans message pour coller à l'exemple)
     scanf("%d" "%d", &a, &b);
