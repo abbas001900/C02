@@ -2,7 +2,11 @@
 
 int main(void) {
     int nbre;
-    scanf("%d", &nbre);
+
+    if (scanf("%d", &nbre) != 1) {
+        printf("Erreur : entrée invalide. Veuillez entrer un entier.\n");
+        return 1;  // Code de retour différent de 0 pour signaler l'erreur
+    }
 
     if (nbre % 2 == 0) {
         printf("%d est un nombre pair.\n", nbre);
@@ -12,3 +16,4 @@ int main(void) {
 
     return 0;
 }
+
