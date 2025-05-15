@@ -1,18 +1,13 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int nbre;
-    nbre = 9;
+    if (scanf("%d", &nbre) != 1) return 1;
 
-    scanf("%d", &nbre);
-
-    if (nbre % 2 != 0) {
-        printf("%d est un nombre impair.", nbre);
+    if (nbre % 2 == 0) {
+        printf("%d est un nombre pair.\n", nbre);
+    } else {
+        printf("%d est un nombre impair.\n", nbre);
     }
-
-    else {
-        printf("%d est un nombre pair.", nbre);
-    }
-
     return 0;
 }
