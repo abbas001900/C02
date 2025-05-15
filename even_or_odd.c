@@ -7,8 +7,10 @@ int main(void) {
 
     // Si le restant de la division du nombre entre par l'utlisateur par 2 est 0
     if(nbre % 2 == 0)
+        printf("\n");
         printf("%d est un nombre pair.", nbre); // Ecrire nbre (le nombre entre par l'utilisateur) est un nombre pair
     else
+        printf("\n");
         printf("%d est un nombre impair.", nbre); // Sinon Ecrire nbre(le nombre entre par l'utilisateur) est un nombre impair
 
     return 0;
