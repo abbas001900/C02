@@ -9,7 +9,7 @@ int main(void) {
     if(nbre % 2 == 0)
         printf("%d est un nombre pair.\n", nbre); // Ecrire nbre (le nombre entre par l'utilisateur) est un nombre pair
     else
-        printf("%d est un nombre impair.", nbre); // Sinon Ecrire nbre(le nombre entre par l'utilisateur) est un nombre impair
+        printf("%d est un nombre impair.\n", nbre); // Sinon Ecrire nbre(le nombre entre par l'utilisateur) est un nombre impair
 
     return 0;
 }
