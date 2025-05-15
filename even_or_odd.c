@@ -4,7 +4,6 @@ int main(void) {
     int nbre;
 
     if (scanf("%d", &nbre) != 1) {
-        printf("Erreur : entrée invalide. Veuillez entrer un entier.\n");
         return 1;  // Code de retour différent de 0 pour signaler l'erreur
     }
 
