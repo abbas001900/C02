@@ -10,7 +10,7 @@ int main(void) {
     a -= b;
 
 
-    printf("Après échange: a = %d, b = %d", a, b);
+    printf("Après échange: a = %d, b = %d\n", a, b);
 
     return 0;
 }
