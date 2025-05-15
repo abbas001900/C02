@@ -2,10 +2,11 @@
 
 int main(void) {
     int nbre;
-    printf("entrer un nombre : ");
+    nbre = 9;
+
     scanf("%d", &nbre);
 
-    if (nbre%2 != 0) {
+    if (nbre % 2 != 0) {
         printf("%d est un nombre impair.", nbre);
     } else {
         printf("%d est un nombre pair.", nbre);
