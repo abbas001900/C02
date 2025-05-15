@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int main() {
     int nbre;
     nbre = 9;
 
@@ -8,7 +8,9 @@ int main(void) {
 
     if (nbre % 2 != 0) {
         printf("%d est un nombre impair.", nbre);
-    } else {
+    }
+
+    else {
         printf("%d est un nombre pair.", nbre);
     }
 
