@@ -2,17 +2,12 @@
 
 int main(void) {
     int nbre;
+    int cond;
+    scanf("%d", &nbre);
+    
+    cond = nbre % 2;
 
-    if (scanf("%d", &nbre) != 1) {
-        return 1;  // Code de retour différent de 0 pour signaler l'erreur
-    }
-
-    if (nbre % 2 == 0) {
-        printf("%d est un nombre pair.\n", nbre);
-    } else {
-        printf("%d est un nombre impair.\n", nbre);
-    }
+    (cond == 0) ? printf("%d est un nombre pair.", nbre) : printf("%d est un nombre impair.", nbre);
 
     return 0;
 }
-
