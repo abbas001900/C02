@@ -4,8 +4,6 @@ int main() {
     int nombre;
     int resultat;
 
-    printf("Entrez un nombre entier : ");
-
     // scanf retourne 1 si la lecture d'un entier réussit
     resultat = scanf("%d", &nombre);
 
