@@ -1,18 +1,23 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-int main(){
+int main() {
     int nombre;
-    char nbrStr[12];
+    int resultat;
 
-    scanf("%d", &nombre);
-    sprintf(nbrStr, "%d", nombre);
+    printf("Entrez un nombre entier : ");
 
+    // scanf retourne 1 si la lecture d'un entier réussit
+    resultat = scanf("%d", &nombre);
 
-    if ((nombre % 2) == 0) {
-        printf("%s est un nombre pair.", nbrStr);
+    if (resultat != 1) {
+        printf("Erreur : vous devez entrer un nombre entier.\n");
+        return 1; // Fin du programme avec erreur
+    }
+
+    if (nombre % 2 == 0) {
+        printf("%d est un nombre pair.\n", nombre);
     } else {
-        printf("%s est un nombre impair.", nbrStr);
+        printf("%d est un nombre impair.\n", nombre);
     }
 
     return 0;
