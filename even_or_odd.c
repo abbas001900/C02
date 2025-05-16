@@ -5,12 +5,10 @@ int main(void) {
     scanf("%d", &nombre);
 
     if ((nombre % 2) == 0) {
-        printf("%d est un nombre pair.\n", nombre);
+        printf("%d est un nombre pair.", nombre);
     } else {
-        printf("%d est un nombre impair.\n", nombre);
+        printf("%d est un nombre impair.", nombre);
     }
-
-
 
     return 0;
 }
