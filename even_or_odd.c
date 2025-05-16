@@ -8,7 +8,7 @@ int main() {
     resultat = scanf("%d", &nombre);
 
     if (resultat != 1) {
-        printf("Erreur : vous devez entrer un nombre entier.\n");
+        printf("%d n'est ni pair ni impair.\n", nombre);
         return 1; // Fin du programme avec erreur
     }
 
