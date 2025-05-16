@@ -1,13 +1,16 @@
-#include <stdio.h>
+int estPair(int n) {
+    return n % 2 == 0;
+}
 
-int main(void) {
+int main() {
     int nombre;
+    printf("Entrez un nombre : ");
     scanf("%d", &nombre);
 
-    if ((nombre % 2) == 0) {
-        printf("%d est un nombre pair.", nombre);
+    if (estPair(nombre)) {
+        printf("%d est un nombre pair.\n");
     } else {
-        printf("%d est un nombre impair.", nombre);
+        printf("%d est un nombre impair.\n");
     }
 
     return 0;
