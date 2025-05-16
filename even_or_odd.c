@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main(void) {
+int main(){
     int nombre;
     char nbrStr[12];
 
