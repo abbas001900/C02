@@ -7,7 +7,7 @@ int main(void) {
     
     cond = nbre % 2;
 
-    (cond == 0) ? printf("%d est un nombre pair.", nbre) : printf("%d est un nombre impair.", nbre);
+    (cond == 0) ? printf("%d est un nombre pair.\n", nbre) : printf("%d est un nombre impair.\n", nbre);
 
     return 0;
 }
