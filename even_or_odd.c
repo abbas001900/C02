@@ -4,10 +4,10 @@ int main(void) {
     int nombre;
     scanf("%d", &nombre);
 
-    if ((nombre & 1) == 0) {
-        printf("Le nombre est pair.\n");
+    if ((nombre % 2) == 0) {
+        printf("%d est un nombre pair.\n", nombre);
     } else {
-        printf("Le nombre est impair.\n");
+        printf("%d est un nombre impair.\n", nombre);
     }
 
 
