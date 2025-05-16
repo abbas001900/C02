@@ -2,12 +2,11 @@
 
 int main() {
     int nombre;     // Déclaration d'une variable entière pour stocker le nombre
-    int resultat;   // Déclaration d'une variable pour stocker le résultat de scanf
 
-    // scanf retourne 1 si la lecture d'un entier réussit
+
     scanf("%d", &nombre); // Lecture d'un entier saisi par l'utilisateur et stockage dans 'nombre'
 
-    // Vérifie si le nombre est pair
+    // Vérifie si le reste de la division du nombre par 2 est 0
     if (nombre % 2 == 0) {
         printf("%d est pair.\n", nombre); // Affiche que le nombre est pair
     } else {
